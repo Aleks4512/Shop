@@ -1,5 +1,5 @@
 from idlelib import browser
-
+from selenium.webdriver.common.by import By
 
 class TestBasket:
     def test_checked_button_add_baskets(self, browser):
